@@ -16,7 +16,7 @@ const about = () => {
             <div className="about__content">
                <h2 className="about__article-title">Mission</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis laudantium saepe voluptatem? Harum fuga odit dolores omnis odio quia optio, architecto ipsa dicta quaerat sint expedita saepe. Maiores, omnis!</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#" className="btn btn-primary">Learn More</a>
             </div>
         </article>
 
