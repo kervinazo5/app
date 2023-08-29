@@ -18,10 +18,10 @@ const footer = () => {
         <div className="footer__2">
             <h4>Permalinks</h4>
             <ul className="permalinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#service">Service</a></li>
-                <li><a href="contact.html"></a>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact"></a>Contact</li>
             </ul>
         </div>
         <div className="footer__3">
@@ -36,10 +36,10 @@ const footer = () => {
             <h4>Contact Us</h4>
             <p>+0 234 567 8798 <br/> shakir26@gmail.com</p>
             <ul className="footer__socials">
-                 <li><a href="#" target="_blank"><i className="uil uil-facebook-f"></i></a></li> 
-                 <li><a href="#" target="_blank"><i className="uil uil-instagram-alt"></i></a></li>
-                 <li><a href="#" target="_blank"><i className="uil uil-twitter"></i></a></li>
-                 <li><a href="#" target="_blank"><i className="uil uil-whatsapp"></i></a></li>
+                 <li><a href="#" target="_blank"><i></i></a></li> 
+                 <li><a href="#" target="_blank"><i></i></a></li>
+                 <li><a href="#" target="_blank"><i></i></a></li>
+                 <li><a href="#" target="_blank"><i></i></a></li>
             </ul>
         </div>
     </div>

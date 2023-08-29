@@ -13,7 +13,7 @@ const Header = () => {
     <div className="container header__container">
         <h1 className="header__title">Martin's Fast Automotive <br/> Service</h1>
         <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias, eius maiores asperiores tempore quo et ut quas dolore. Consectetur quasi repellendus maxime, omnis tempora quod quas mollitia praesentium optio.</p>
-        <a href="Contact.html" class="btn btn-primary">Contact</a>
+        <a href="Contact.html" className="btn btn-primary">Contact</a>
 
 
         <div className="header__socials">

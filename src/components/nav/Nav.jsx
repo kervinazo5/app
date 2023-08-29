@@ -5,6 +5,24 @@ import {GrClose}  from 'react-icons/gr';
 
 const Nav = () => {
     const [activeNav,setActiveNav] = useState('#home')
+    const [click,setClick] = useState(false)
+
+    const ChangerClick = () =>{
+        setClick(!click);
+        const menuBtn = document.querySelector("#menu-btn");
+        const closeBtn = document.querySelector("#close-btn");
+        const menu = document.querySelector(".nav__items");
+
+        if (click){
+            menu.style.display = 'block';
+            menuBtn.style.display = 'none';
+            closeBtn.style.display = 'inline-block';
+        } else {
+            menu.style.display = 'none';
+            menuBtn.style.display = 'inline-block';
+            closeBtn.style.display = 'none';
+        }
+    };
   return (
   <nav>
       <div className="container nav__container">
@@ -17,8 +35,8 @@ const Nav = () => {
 
           <a href="index.html" className="nav__logo"><h3>Martin's</h3></a>
 
-          <button id="menu-btn"><i><FiMenu/></i></button>
-          <button id="close-btn"><i><GrClose/></i></button>
+          <button id="menu-btn" onClick={() => ChangerClick()} ><i><FiMenu/></i></button>
+          <button id="close-btn" onClick={() => ChangerClick()}><i><GrClose/></i></button>
       </div>
   </nav>
   )
