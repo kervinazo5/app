@@ -1,44 +1,36 @@
 import React, { useState } from 'react'
+import Logo from "../../assets/logo.png" 
 import './nav.css'
-import {FiMenu}  from 'react-icons/fi';
-import {GrClose}  from 'react-icons/gr';
+import {FaBars} from 'react-icons/fa'
+import {MdOutlineClose} from 'react-icons/md'
 
 const Nav = () => {
-    const [activeNav,setActiveNav] = useState('#home')
-    const [click,setClick] = useState(false)
+    const [activeNav,setActiveNav] = useState('/')
+    const [isNavShowing,setIsNavShowing] = useState(false);
 
-    const ChangerClick = () =>{
-        setClick(!click);
-        const menuBtn = document.querySelector("#menu-btn");
-        const closeBtn = document.querySelector("#close-btn");
-        const menu = document.querySelector(".nav__items");
-
-        if (click){
-            menu.style.display = 'block';
-            menuBtn.style.display = 'none';
-            closeBtn.style.display = 'inline-block';
-        } else {
-            menu.style.display = 'none';
-            menuBtn.style.display = 'inline-block';
-            closeBtn.style.display = 'none';
-        }
-    };
   return (
-  <nav>
-      <div className="container nav__container">
-          <ul className="nav__items">
-              <li><a href="#home" className={activeNav === '#home' ? 'active' : ''}>Home</a></li>
-              <li><a href="#about" onClick={() => setActiveNav('#about') } className={activeNav === '#about' ? 'active' : ''}>About</a></li>
-              <li><a href="#service" onClick={() => setActiveNav('#service') } className={activeNav === '#service' ? 'active' : ''}>Service</a></li>
-              <li><a href="#contact" onClick={() => setActiveNav('#contact') } className={activeNav === '#contact' ? 'active' : ''}>Contact</a></li>
-          </ul>
 
-          <a href="index.html" className="nav__logo"><h3>Martin's</h3></a>
+    <nav>
+    <div className="container nav__container">
+            <div className="logo">
+            <img src={Logo} alt="Nav Logo" />
+            </div>
+            
+        
+         <ul className={`nav__links ${isNavShowing ? 'show__nav': 'hide__nav'}`}> 
+            <li><a href="#home" className={activeNav === '/' ? 'active-nav' : ''}>Home</a></li>
+            <li><a href="#about" onClick={() => setActiveNav('#about') } className={activeNav === '#about' ? 'active-nav' : ''}>About</a></li>
+            <li><a href="#service" onClick={() => setActiveNav('#service') } className={activeNav === '#service' ? 'active-nav' : ''}>Service</a></li>
+            <li><a href="#contact" onClick={() => setActiveNav('#contact') } className={activeNav === '#contact' ? 'active-nav' : ''}>Contact</a></li>
+        </ul>
+        <button className="nav__toggle-btn" onClick={()=> setIsNavShowing(!isNavShowing)}>
+            {
+                isNavShowing ? <MdOutlineClose/> : <FaBars/>
+            }
+        </button>
+    </div>
+</nav>
 
-          <button id="menu-btn" onClick={() => ChangerClick()} ><i><FiMenu/></i></button>
-          <button id="close-btn" onClick={() => ChangerClick()}><i><GrClose/></i></button>
-      </div>
-  </nav>
   )
 }
 

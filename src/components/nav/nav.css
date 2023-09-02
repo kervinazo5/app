@@ -1,144 +1,112 @@
-nav{
+
+nav {
+    height: 5rem;
     width: 100vw;
-    height: 6rem;
+    background: linear-gradient(to left,#f40303,#f40303,#f43431);
     display: grid;
     place-items: center;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
-    background: transparent;
+    z-index: 99;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.window-scroll {
-    background: var(--color-primary);
-}
-
-
-
-.nav__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav button{
+.nav__toggle-btn{
     display: none;
 }
 
-.nav__items{
+.nav__container{
+    height: 100%;
     display: flex;
-    gap: 3rem;
+    justify-content: space-between;
+    position: relative;
 }
 
-.nav__logo{
+.logo {
+    display: flex;
+    align-items: center;
+    width: 7rem;
+}
+
+.nav__links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav__links a{
+    transition: var(--transition);
+}
+
+.nav__links a:hover{
+    color: var(--color-secundary);
+}
+
+.active-nav{
+    position: relative;
+}
+
+
+
+.active-nav::after{
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #f40303;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+    left: calc(50% - 0.6rem);
+    transform: rotate(45deg);
+    margin-top: 0.9rem;
 }
 
-.nav__logo h3 {
-    font-size: 1.7rem;
-}
-
-nav a:hover{
-    background: rgba(0, 0, 0, 0.3);
-}
-
-nav a.active{
-    background: transparent;
-    color: var(--color-white);
-}
-
-@media screen and (max-width: 600px){
-    .nav__logo {
-        margin-left: 1rem;
-      }
-
-      .nav__items li a{
-        justify-content: center;
-        padding: 0;
-      }
-
-      nav button{
-        margin-right: 0.7rem;
-      }
-
-      .header__title{
-        padding-top: 11rem;
-      }
-}
-
-@media screen and (max-width: 1024px){
-    nav{
-        background: var(--color-primary);
-    }
-    .nav__container{
-        position: relative;
-        width: 100vw;
+@media screen and (max-width: 1024px) {
+    .nav__toggle-btn{
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        cursor: pointer;
     }
 
-    .nav__logo{
-        margin-left: 2rem;
-        position: relative;
+    .nav__toggle-btn svg {
+        color: white;
     }
 
-    .nav__items{
-        position: fixed;
-        top: 6rem;
+    .nav__links {
+        position: absolute;
+        top: 100%;
         right: 0;
-        background: var(--color-white);
-        height: max-content;
-        width: 18rem;
-        box-shadow: -2rem 2rem 3rem rgba(0, 0, 0, 0.2);
         flex-direction: column;
         gap: 0;
-        z-index: 3;
+    }
+
+    .active-nav, .active-nav::after{
         display: none;
     }
 
-    .nav__items li {
+    .nav__links li {
+        height: 4rem;
         width: 100%;
-        height: 6rem;
+        box-shadow: -2rem 2rem 5rem rgba(0,0,0,0.4);
     }
 
-    .nav__items li a{
-        color: var(--color-black);
-        width: 100%;
+    .nav__links li a {
+        background: var(--color-primary-v);
         height: 100%;
-        display: block;
-        padding-left: 3rem;
+        width: 100%;
         display: flex;
         align-items: center;
-        transition: all 400ms ease;
+        padding: 1rem 5rem 1rem 3rem;
+
     }
 
-    .nav__items li a:hover{
-        background: var(--color-primary);
-        color: var(--color-white);
+    .show__nav {
+        display : flex;
     }
 
-    .nav__logo{
-        position: relative;
-        left: 0;
-        transform: translate(0);
-    }
-
-    nav button{
-        display: inline-block;
-        margin-right: 1.4rem;
-        background: transparent;
-        color: var(--color-white);
-        cursor: pointer;
-        border: none;
-    }
-
-    nav button#close-btn{
+    .hide__nav {
         display: none;
     }
 
-    nav button i{
-        font-size: 2.4rem;
-    }
 }
