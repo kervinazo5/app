@@ -12,19 +12,19 @@ const Contact = () => {
         <div className="container contact__container">
             <div className="contact__options">
                 <article className="contact__option">
-                    <MdOutlineEmail/>
+                    <MdOutlineEmail className='contact__option-icon'/>
                     <h4>Email</h4>
                     <h5>Email@gmail.com</h5>
                     <a href="mailto:email@gmail.com" target='_blank'>Send email</a>
                 </article>
                 <article className="contact__option">
-                    <RiMessengerLine/>
+                    <RiMessengerLine className='contact__option-icon'/>
                     <h4>Messager</h4>
                     <h5>Email@gmail.com</h5>
                     <a href="https://m.me/ernest.achiever" target='_blank'>Send email</a>
                 </article>
                 <article className="contact__option">
-                    <BsWhatsapp/>
+                    <BsWhatsapp className='contact__option-icon'/>
                     <h4>WhatsApp</h4>
                     <h5>+1 404 581-2663</h5>
                     <a href="https://api.whatsapp.com/send?phone+14045812663" target='_blank'>Send email</a>
