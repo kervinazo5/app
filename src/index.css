@@ -158,5 +158,6 @@ img{
 
       .lead{
         width: var(--container-width-phone);
+        margin-bottom: 0;
       }
 }

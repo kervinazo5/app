@@ -69,6 +69,8 @@ header p {
 @media screen and (max-width: 600px){
     .header__title{
         padding-top: 11rem;
+        font-size: 2rem;
+        margin-bottom: 0;
       }
 
       .header__socials{
