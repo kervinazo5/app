@@ -1,42 +1,43 @@
 import React from 'react'
 import './contact.css'
+import {MdOutlineEmail} from 'react-icons/md'
+import {RiMessengerLine} from 'react-icons/ri'
+import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="container">
-        <aside>
-             <h4>Get in Touch</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quod. Doloremque, in saepe. Laboriosam quisquam dolor tenetur non, provident, rerum atque sint debitis repellat fuga expedita libero dolores nulla fugiat?</p>
-                <div className="info">
-                    <article>
-                        <span className="icon"><i></i></span>
-                        <div className="details">
-                            <h5>CHAT width us</h5>
-                            <small>send us an email we´ll respond shortly</small>
-                            <p>infowegattor@gattor.com</p>
-                        </div>
-                    </article>
-                    <article>
-                        <span className="icon"><i></i></span>
-                        <div className="details">
-                            <h5>Oficce</h5>
-                            <small>Come say hello at our office Hq</small>
-                            <p>123 mills street</p>
-                            <p>EAST AIrport, accra</p>
-                        </div>
-                    </article>
-                    <article>
-                        <span className="icon"><i></i></span>
-                        <div className="details">
-                            <h5>Phone</h5>
-                            <small>Mon Fri form 9am - 5pm</small>
-                            <p>+(123) 4656-7890</p>
-                        </div>
-                    </article>
-                </div>
-            </aside>
+        <h5>Get In Touch</h5>
+        <h2>Contact Me</h2>
+        <div className="container contact__container">
+            <div className="contact__options">
+                <article className="contact__option">
+                    <MdOutlineEmail/>
+                    <h4>Email</h4>
+                    <h5>Email@gmail.com</h5>
+                    <a href="mailto:email@gmail.com" target='_blank'>Send email</a>
+                </article>
+                <article className="contact__option">
+                    <RiMessengerLine/>
+                    <h4>Messager</h4>
+                    <h5>Email@gmail.com</h5>
+                    <a href="https://m.me/ernest.achiever" target='_blank'>Send email</a>
+                </article>
+                <article className="contact__option">
+                    <BsWhatsapp/>
+                    <h4>WhatsApp</h4>
+                    <h5>+1 404 581-2663</h5>
+                    <a href="https://api.whatsapp.com/send?phone+14045812663" target='_blank'>Send email</a>
+                </article>
+                <form action="">
+                    <input type="text" name='name' placeholder='Your Full Name' required/>
+                    <input type="email" name='email'  placeholder='Your email' required/>
+                    <textarea name="message" rows="7" placeholder='Your message' required></textarea>
+                    <button type="submit" className='btn btn-primary'>Send Message</button>
+                </form>
             </div>
+
+        </div>
     </section>
   )
 }

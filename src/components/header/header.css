@@ -9,6 +9,7 @@ header{
     grid-template-columns: 1fr;
     height: 100%;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .header__title{

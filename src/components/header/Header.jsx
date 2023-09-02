@@ -18,7 +18,7 @@ const Header = () => {
 
           <div className="header__socials">
               <a href='https://www.facebook.com/martintprada?mibextid=ZbWKwL' target="_blank"><BsFacebook/></a>
-              <a  target="_blank"><BsWhatsapp/></a>
+              <a href='#' target="_blank"><BsWhatsapp/></a>
               <a href='https://instagram.com/martinsfastauto?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D' target="_blank"><BsInstagram/></a>
               <a href='https://maps.google.com/?cid=3376485699300949514&entry=gps' target="_blank"><SiGooglemaps/></a>
           </div>
