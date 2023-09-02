@@ -11,7 +11,7 @@
 }
 
 :root{
-    --color-primary: #f20602d0;
+    --color-primary: red;
     --color-primary-variant: rgba(0,0,240,0.2);
     --color-white: #fff;
     --color-black: #000f37;
@@ -147,7 +147,7 @@ img{
       }
 
       h1{
-        font-size: 1.8rem;
+        font-size: 4rem;
       }
 
       h3{

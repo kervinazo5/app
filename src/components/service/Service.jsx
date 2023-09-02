@@ -34,14 +34,6 @@ const Service = () => {
                     <i><AiOutlineCheckCircle/></i>
                         <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
                     </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
                 </ul>
             </article>
             
@@ -70,14 +62,6 @@ const Service = () => {
                     <i><AiOutlineCheckCircle/></i>
                         <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
                     </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
                 </ul>
             </article>
             <article className="service">
@@ -85,14 +69,6 @@ const Service = () => {
                     <h3>servicio de cambio </h3>
                 </div>
                 <ul className="service__list">
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
                     <li>
                     <i><AiOutlineCheckCircle/></i>
                         <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
