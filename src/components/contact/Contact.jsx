@@ -7,7 +7,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 const Contact = () => {
   return (
     <section id="contact">
-        <h5 className='.contact__title-primary'>Get In Touch</h5>
+        <h5 className='contact__title-primary'>Get In Touch</h5>
         <h2 className='contact__title'>Contact Me</h2>
         <div className="container contact__container">
             <div className="contact__options">
