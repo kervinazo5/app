@@ -40,6 +40,12 @@
     font-size: 0.8rem;
 }
 
+.contact__title-primary{
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--color-black);
+}
+
 form{
     display: flex;
     flex-direction: column;
