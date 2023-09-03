@@ -1,4 +1,4 @@
-.container.contact__container{
+.container.contact__container {
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -55,6 +55,20 @@ textarea{
     border: 2px solid var(--color-black);
     resize: none;
     color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px){
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .container.contact__container{
+        width: var(--container-width-phone);
+    }
 }
 
 

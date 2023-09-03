@@ -34,7 +34,7 @@ const footer = () => {
         </div>
         <div className="footer__4"> 
             <h4>Contact Us</h4>
-            <p>+0 234 567 8798 <br/> shakir26@gmail.com</p>
+            <p>+1 404 581-2663<br/>2715 Main St W, Snellville, GA.</p>
             <ul className="footer__socials">
                  <li><a href="#" target="_blank"><i></i></a></li> 
                  <li><a href="#" target="_blank"><i></i></a></li>
