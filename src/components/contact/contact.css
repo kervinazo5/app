@@ -59,7 +59,7 @@ textarea{
     background: transparent;
     border: 2px solid var(--color-black);
     resize: none;
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 @media screen and (max-width: 1024px){
