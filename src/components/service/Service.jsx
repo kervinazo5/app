@@ -1,96 +1,35 @@
 import React from 'react'
 import './service.css'
-import {AiOutlineCheckCircle}  from 'react-icons/ai';
+import {FcServices} from 'react-icons/fc'
+ 
 
 
 const Service = () => {
   return (
     <section id="service">
-        <h5 className="service__title-primary">What I Offer</h5>
-        <h2 className="service__title">services</h2>
+        <h5>What I Offer</h5>
+        <h2>services</h2>
         <div className="container service__container">
-            <article className="service">
-                <div className="service__head">
-                    <h3>servicio de cambio </h3>
-                </div>
-                <ul className="service__list">
-                    <li>
-                        <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                        <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                </ul>
-            </article>
-            
-            <article className="service">
-                <div className="service__head">
-                    <h3>servicio de cambio</h3>
-                </div>
-                <ul className="service__list">
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                </ul>
-            </article>
-            <article className="service">
-                <div className="service__head">
-                    <h3>servicio de cambio </h3>
-                </div>
-                <ul className="service__list">
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                    <li>
-                    <i><AiOutlineCheckCircle/></i>
-                        <p>lorem, ipsum dolor sit amet conccs asdkiandlanla ksandalnadkl.</p>
-                    </li>
-                </ul>
-            </article>
+           <article className='service'>
+                <i><FcServices/></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+           <article className='service'>
+                <i><FcServices/></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+           <article className='service'>
+                <i><FcServices/></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+           <article className='service'>
+                <i><FcServices/></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
         </div>
     </section>
   )

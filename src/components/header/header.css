@@ -13,13 +13,13 @@ header{
 }
 
  .MER {
-    width: 31rem;
-    height: 30rem;
+    width: 40%;
+    max-width: 100vh;
     position: absolute;
     right: calc(10% - 8.5rem);
-    border-radius: 50%;
-    top: 20%;
     object-fit: cover;
+    top: 5rem;
+    border-end-start-radius: 50%;
 }
 
 .header__title{
