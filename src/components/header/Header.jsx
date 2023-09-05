@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import ME from '../../assets/header-decorator1.png'
-import MER from '../../assets/IMG-20220210-WA0088.jpg'
+// import MER from '../../assets/IMG-20220210-WA0088.jpg'
 import {BsFacebook}  from 'react-icons/bs';
 import {BsWhatsapp}  from 'react-icons/bs';
 import {BsInstagram}  from 'react-icons/bs';
@@ -14,7 +14,6 @@ const Header = () => {
     <section id='#'>
       <header>
       <div className="container header__container">
-          <img className='MER' src={MER} alt="header backgraund" />
           <h1 className="header__title">Martin's Fast Automotive <br/> Service</h1>
           <p className="lead">Automobiles, airplanes and boats. Martin Torres, specialist in automotive mechanics.</p>
         

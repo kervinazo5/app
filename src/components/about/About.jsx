@@ -18,17 +18,15 @@ const about = () => {
                 <p>Martin's Fast Automotive Service aims to become one of the most trusted and respected repair shops in all of Georgia.</p>
             </div>
         </article>
-
         <article className="about__article">
+        <div className="about__image">
+              <img src={TWO} alt="" />
+            </div>
             <div className="about__content">
                <h2 className="about__article-title">Vision</h2>
                 <p>Martin's Fast Automotive Service is committed to offering a high quality service, that our clients are satisfied with our work, consider their needs satisfied.</p>
             </div>
-            <div className="about__image">
-              <img src={TWO} alt="" />
-            </div>
         </article>
-
         <article className="about__article">
             <div className="about__image">
                 <img src={TR} alt="" />

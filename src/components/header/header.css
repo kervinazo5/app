@@ -1,6 +1,5 @@
 header{
-
-    background: red;
+    background: url(../../assets/background.png) no-repeat top center/100vw;
     height: 100vh;
 }
 
@@ -10,16 +9,6 @@ header{
     height: 100%;
     align-items: center;
     padding-bottom: 2rem;
-}
-
- .MER {
-    width: 40%;
-    max-width: 100vh;
-    position: absolute;
-    right: calc(10% - 8.5rem);
-    object-fit: cover;
-    top: 5rem;
-    border-end-start-radius: 50%;
 }
 
 .header__title{

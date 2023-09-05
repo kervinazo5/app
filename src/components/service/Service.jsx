@@ -1,7 +1,13 @@
 import React from 'react'
 import './service.css'
 import {FcServices} from 'react-icons/fc'
- 
+import {MdMedicalServices} from 'react-icons/md'
+import {GiAutoRepair} from 'react-icons/gi'
+import {FcAutomotive} from 'react-icons/fc'
+import {MdCarRepair} from 'react-icons/md'
+import {FcAutomatic} from 'react-icons/fc'
+
+
 
 
 const Service = () => {
@@ -16,27 +22,27 @@ const Service = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
            <article className='service'>
-                <i><FcServices/></i>
+                <i><MdMedicalServices/></i>
                 <h2>Web Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
            <article className='service'>
-                <i><FcServices/></i>
+                <i><GiAutoRepair/></i>
                 <h2>Web Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
            <article className='service'>
-                <i><FcServices/></i>
+                <i><FcAutomotive/></i>
                 <h2>Web Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
            <article className='service'>
-                <i><FcServices/></i>
+                <i><MdCarRepair/></i>
                 <h2>Web Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
            <article className='service'>
-                <i><FcServices/></i>
+                <i><FcAutomatic/></i>
                 <h2>Web Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
