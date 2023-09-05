@@ -30,6 +30,16 @@ const Service = () => {
                 <h2>Web Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            </article>
+           <article className='service'>
+                <i><FcServices/></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
+           <article className='service'>
+                <i><FcServices/></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </article>
         </div>
     </section>
   )
