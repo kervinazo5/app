@@ -7,8 +7,8 @@ import {FcServices} from 'react-icons/fc'
 const Service = () => {
   return (
     <section id="service">
-        <h5>What I Offer</h5>
-        <h2>services</h2>
+        <h5 className='title__primary'>What I Offer</h5>
+        <h2 className='title'>services</h2>
         <div className="container service__container">
            <article className='service'>
                 <i><FcServices/></i>

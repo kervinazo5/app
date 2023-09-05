@@ -1,10 +1,10 @@
-#service h5{
+.title__primary{
     margin-top: 2rem;
     text-align: center;
     color: var(--color-black);
 }
 
-#service h2 {
+.title {
     margin: 1rem auto;
     color: var(--color-black);
     text-align: center;
@@ -13,7 +13,7 @@
     padding-top: 0;
 }
 
-#service h2::after{
+.title::after{
     content: '';
     background: var(--color-black);
     width: 100px;
