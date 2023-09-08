@@ -89,7 +89,7 @@ img{
 }
 
 .btn-primary{
-    background: var(--color-black);
+    background: red;
     color: var(--color-white);
     transition: all 300ms ease;
 }
