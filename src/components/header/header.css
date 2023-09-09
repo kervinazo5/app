@@ -46,7 +46,6 @@ header p {
 @media screen and (max-width: 1024px){
     header{
         padding-bottom: var(--buttom-section-padding-mobile);
-        background: var(--color-primary);
     }
 
     .header__title{
