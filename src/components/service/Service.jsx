@@ -5,13 +5,12 @@ import { MdMedicalServices } from "react-icons/md";
 import { GiAutoRepair } from "react-icons/gi";
 import { FcAutomotive } from "react-icons/fc";
 import { MdCarRepair } from "react-icons/md";
-import { FcAutomatic } from "react-icons/fc";
 
 const Service = () => {
   return (
     <section id="service">
       <h5 className="title__primary">What I Offer</h5>
-      <h2 className="title">services</h2>
+      <h2 className="title">Services</h2>
       <div className="container service__container">
         <article className="service">
           <i>

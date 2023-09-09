@@ -15,7 +15,7 @@ const Header = () => {
       <header>
       <div className="container header__container">
           <h1 className="header__title">Martin's Fast Automotive <br/> Service</h1>
-          <p className="lead">Automobiles, airplanes and boats. Martin Torres, specialist in automotive mechanics.</p>
+          <p className="lead">Automoviles, airplanes and boats. Martin Torres, specialist in automotive mechanics.</p>
         
 
           <div className="header__socials">
