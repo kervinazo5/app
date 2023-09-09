@@ -22,7 +22,7 @@ const about = () => {
 
         <article className="about__article">
             <div className="about__content">
-               <h2 className="about__article-title">Service Automotive</h2>
+               <h2 className="about__article-title">Vision</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis laudantium saepe voluptatem? Harum fuga odit dolores omnis odio quia optio, architecto ipsa dicta quaerat sint expedita saepe. Maiores, omnis!</p>
                 <a href="#" className="btn btn-primary">Learn More</a>
             </div>
@@ -36,7 +36,7 @@ const about = () => {
                 <img src={TR} alt="" />
             </div>
             <div className="about__content">
-               <h2 className="about__article-title">Service Automotive</h2>
+               <h2 className="about__article-title">Our values</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis laudantium saepe voluptatem? Harum fuga odit dolores omnis odio quia optio, architecto ipsa dicta quaerat sint expedita saepe. Maiores, omnis!</p>
                 <a href="#" className="btn btn-primary">Learn More</a>
             </div>
