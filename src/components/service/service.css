@@ -52,24 +52,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 600px){
+    .title{
+        padding: 0;
+        text-align: center;
+    }
    
 }
 

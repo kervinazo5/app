@@ -167,5 +167,6 @@ img{
       .lead{
         width: var(--container-width-phone);
         margin-bottom: 0;
+        font-size: 1.2rem;
       }
 }
