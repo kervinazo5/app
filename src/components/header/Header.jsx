@@ -1,7 +1,9 @@
 import React from 'react'
 import './header.css'
 import ME from '../../assets/header-decorator1.png'
-// import MER from '../../assets/IMG-20220210-WA0088.jpg'
+import SLIDER from '../../assets/slider1.jpg'
+import SLIDER1 from '../../assets/slider2.jpg'
+import SLIDER2 from '../../assets/slider3.jpg'
 import {BsFacebook}  from 'react-icons/bs';
 import {BsWhatsapp}  from 'react-icons/bs';
 import {BsInstagram}  from 'react-icons/bs';
