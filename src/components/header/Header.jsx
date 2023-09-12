@@ -1,15 +1,10 @@
 import React from 'react'
 import './header.css'
 import ME from '../../assets/header-decorator1.png'
-import SLIDER from '../../assets/slider1.jpg'
-import SLIDER1 from '../../assets/slider2.jpg'
-import SLIDER2 from '../../assets/slider3.jpg'
 import {BsFacebook}  from 'react-icons/bs';
 import {BsWhatsapp}  from 'react-icons/bs';
 import {BsInstagram}  from 'react-icons/bs';
 import {SiGooglemaps}  from 'react-icons/si';
-
-
 
 const Header = () => {
   return (
@@ -21,13 +16,13 @@ const Header = () => {
         
 
           <div className="header__socials">
-              <a href='https://www.facebook.com/martintprada?mibextid=ZbWKwL' target="_blank"><BsFacebook/></a>
-              <a href='https://api.whatsapp.com/send?phone+14045948866' target="_blank"><BsWhatsapp/></a>
-              <a href='https://instagram.com/martinsfastauto?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D' target="_blank"><BsInstagram/></a>
-              <a href='https://maps.google.com/?cid=3376485699300949514&entry=gps' target="_blank"><SiGooglemaps/></a>
+              <a href={'https://www.facebook.com/martintprada?mibextid=ZbWKwL'} target="_blank" rel='noreferrer'><BsFacebook/></a>
+              <a href={'https://api.whatsapp.com/send?phone=%2B14045948866'} target="_blank" rel='noreferrer'><BsWhatsapp/></a>
+              <a href={'https://instagram.com/martinsfastauto?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D'} target="_blank" rel='noreferrer'><BsInstagram/></a>
+              <a href={'https://maps.google.com/?cid=3376485699300949514&entry=gps'} target="_blank" rel='noreferrer'><SiGooglemaps/></a>
           </div>
         <div className="btn__container">
-          <button className='btn btn-primary'>CONTACT</button>
+          <button className='btn btn-primary'>Contact</button>
         </div>
       </div>
       <div className="header__decorator-1">

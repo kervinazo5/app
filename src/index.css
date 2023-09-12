@@ -73,6 +73,7 @@ h3{
 
 p{
     font-family: 'poppins';
+    padding: 1rem;
 }
 
 
@@ -122,15 +123,15 @@ img{
     }
 
     h1 { 
-        font-size: 4.2rem;
+        font-size: 4.2vw;
     }
 
     h2{
-        font-size: 2rem;
+        font-size: 2vw;
     }
 
     h3{
-        font-size: 1.9rem;
+        font-size: 1.9vw;
     }
 
     .lead{
