@@ -44,8 +44,6 @@ header p {
 @media screen and (max-width: 1024px){
     header{
         padding-bottom: var(--buttom-section-padding-mobile);
-        background: url(../../assets/background.png)  no-repeat top center/172vw;
-
     }
 
     .header__title{
@@ -74,7 +72,8 @@ header p {
 @media screen and (max-width: 600px){
 
      header{
-        background: url(../../assets/background.png)  no-repeat top center/172vw;
+        background: url(../../assets/background.png) no-repeat top center/255vw;
+        height: 100vh;
      }
 
     .header__title{
