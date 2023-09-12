@@ -39,10 +39,10 @@ const Service = () => {
           </i>
           <h2>General mechanics</h2>
           <p>
-            Diagnosis whit scanner and repair of faults. • Engine tuning •
-            Clutch replacement • Oil change • Transmission replacement and
-            repair • Cooling system maintenance • Maintenance to the injection
-            system • Distribution kit replacement.
+            Diagnosis whit scanner and repair of faults.<br/> • Engine tuning <br />•
+            Clutch replacement <br/> • Oil change <br /> • Transmission replacement and
+            repair <br /> • Cooling system maintenance <br />• Maintenance to the injection
+            system <br /> • Distribution kit replacement.
           </p>
         </article>
         <article className="service">
