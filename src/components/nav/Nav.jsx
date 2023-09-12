@@ -18,7 +18,7 @@ const Nav = () => {
             
         
          <ul className={`nav__links ${isNavShowing ? 'show__nav': 'hide__nav'}`}> 
-            <li><a href="#" className={activeNav === '#' ? 'active-nav' : ''}>Home</a></li>
+            <li><a href="#" onClick={() => setActiveNav('#') } className={activeNav === '#' ? 'active-nav' : ''}>Home</a></li>
             <li><a href="#about" onClick={() => setActiveNav('#about') } className={activeNav === '#about' ? 'active-nav' : ''}>About</a></li>
             <li><a href="#service" onClick={() => setActiveNav('#service') } className={activeNav === '#service' ? 'active-nav' : ''}>Services</a></li>
             <li><a href="#contact" onClick={() => setActiveNav('#contact') } className={activeNav === '#contact' ? 'active-nav' : ''}>Contact</a></li>
