@@ -49,4 +49,8 @@
     grid-row: 1;
   }
 
+  .about__title{
+    font-size: 3rem;
+  }
+
   }

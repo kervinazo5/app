@@ -57,6 +57,9 @@
     .title{
         padding: 0;
         text-align: center;
+        margin-bottom: 3rem;
+        font-size: 3rem;
+
     }
    
 }

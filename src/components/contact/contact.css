@@ -72,6 +72,11 @@ textarea{
 }
 
 @media screen and (max-width: 600px){
+    .contact__title{
+        font-size: 3rem;
+        color: var(--color-black);
+    }
+
     .container.contact__container{
         width: var(--container-width-phone);
     }
