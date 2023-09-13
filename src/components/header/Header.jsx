@@ -8,7 +8,7 @@ import {SiGooglemaps}  from 'react-icons/si';
 
 const Header = () => {
   return (
-    <section id="#">
+    <section id='#'>
       <header>
       <div className="container header__container">
           <h1 className="header__title">Martin's Fast Automotive <br/> Service</h1>

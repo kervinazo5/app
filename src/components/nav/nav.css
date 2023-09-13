@@ -2,7 +2,8 @@
 nav {
     height: 5rem;
     width: 100vw;
-    background: linear-gradient(to left,#f40303,#f40303,#e7cccbe0);
+    /* background: linear-gradient(to left,#f40303,#f40303,#e7cccbe0); */
+    background: transparent;
     display: grid;
     place-items: center;
     position: fixed;
