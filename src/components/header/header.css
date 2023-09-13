@@ -46,8 +46,15 @@ header p {
         padding-bottom: var(--buttom-section-padding-mobile);
     }
 
+    .header__container{
+        display: inline-block;
+        margin-top: 20rem;
+
+    }
+
     .header__title{
         margin-bottom: 1.5rem;
+        margin-left: 2rem;
     }
 
     .header__image{
@@ -75,6 +82,12 @@ header p {
         /* background: url(../../assets/background.png) no-repeat top center/255vw; */
         height: 100vh;
      }
+
+     .header__container{
+        display: inline-block;
+        margin-top: 10rem;
+
+    }
 
     .header__title{
         padding-top: 11rem;
