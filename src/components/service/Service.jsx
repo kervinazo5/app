@@ -61,7 +61,7 @@ const Service = () => {
           <i>
             <MdCarRepair />
           </i>
-          <h2>Major Tuning</h2>
+          <h2>Tune Up</h2>
           <p>
             Counteract the natural wear of your engine, recover power and
             efficiency of the vehicle while saving fuel and caring for the
