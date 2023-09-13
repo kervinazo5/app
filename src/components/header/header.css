@@ -1,5 +1,5 @@
 header{
-    background: url(../../assets/background.png) no-repeat top center/100vw;
+    /* background: url(../../assets/background.png) no-repeat top center/100vw; */
     height: 100vh;
 }
 
@@ -72,7 +72,7 @@ header p {
 @media screen and (max-width: 600px){
 
      header{
-        background: url(../../assets/background.png) no-repeat top center/255vw;
+        /* background: url(../../assets/background.png) no-repeat top center/255vw; */
         height: 100vh;
      }
 
