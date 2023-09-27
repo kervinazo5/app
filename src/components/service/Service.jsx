@@ -5,6 +5,7 @@ import { MdMedicalServices } from "react-icons/md";
 import { GiAutoRepair } from "react-icons/gi";
 import { FcAutomotive } from "react-icons/fc";
 import { MdCarRepair } from "react-icons/md";
+import { BsCheckCircle } from "react-icons/bs";
 
 const Service = () => {
   return (
@@ -39,11 +40,16 @@ const Service = () => {
           </i>
           <h2>General mechanics</h2>
           <p>
-            Diagnosis whit scanner and repair of faults.<br/> • Engine tuning <br />•
-            Clutch replacement <br/> • Oil change <br /> • Transmission replacement and
-            repair <br /> • Cooling system maintenance <br />• Maintenance to the injection
-            system <br /> • Distribution kit replacement.
-          </p>
+            Diagnosis whit scanner and repair of faults.</p>
+            <ul>
+              <li><i><BsCheckCircle/></i> Engine tuning </li>
+              <li><i><BsCheckCircle/></i> Clutch replacement </li>
+              <li><i><BsCheckCircle/></i> Oil change </li>
+              <li><i><BsCheckCircle/></i> Transmission replacement and repair </li>
+              <li><i><BsCheckCircle/></i> Cooling system maintenance</li>
+              <li><i><BsCheckCircle/></i> Maintenance to the injection system </li> 
+              <li><i><BsCheckCircle/></i>Distribution kit replacement.</li>
+            </ul>
         </article>
         <article className="service">
           <i>
@@ -52,10 +58,16 @@ const Service = () => {
           <h2>Braking system</h2>
           <p>
             You must carry out preventive maintenance on your vehicle's brake
-            system, your safety is the most important thing. • Replace pads •
-            Disc grinding • Brake cleaning and adjustment • Replacement of rotor
-            discs • Replacement of wheel cylinders
-          </p>
+            system, your safety is the most important thing. </p>
+            
+            <ul>
+              <li><i><BsCheckCircle/></i>Replace pads</li>
+              <li><i><BsCheckCircle/></i>Disc grinding</li>
+              <li><i><BsCheckCircle/></i> Brake cleaning and adjustment </li>
+              <li><i><BsCheckCircle/></i> Replacement of rotor  discs</li>
+              <li><i><BsCheckCircle/></i> Cooling system maintenance</li>
+              <li><i><BsCheckCircle/></i> Replacement of wheel cylinders </li> 
+            </ul>
         </article>
         <article className="service">
           <i>
@@ -65,14 +77,26 @@ const Service = () => {
           <p>
             Counteract the natural wear of your engine, recover power and
             efficiency of the vehicle while saving fuel and caring for the
-            environment. • Engine oil change • Replacement of spark plugs • Air
-            filter replacement • Gasoline filter replacement • Oil filter
-            replacement • Throttle body cleaning • Cleaning of injector body •
-            Cleaning of IAC valve and sensors • Transmission oil check •
-            Differential oil check • Hydraulic steering oil check • Check and
-            refill fluid levels • Review of security points • Engine, chassis
-            wash
-          </p>
+            environment. </p>
+            
+            <ul>
+              <li><i><BsCheckCircle/></i>Engine oil change</li>
+              <li><i><BsCheckCircle/></i>Replacement of spark plugs</li>
+              <li><i><BsCheckCircle/></i> Gasoline filter replacement</li>
+              <li><i><BsCheckCircle/></i> Oil filter replacement</li>
+              <li><i><BsCheckCircle/></i> Throttle body cleaning </li>
+              <li><i><BsCheckCircle/></i> Cleaning of injector body </li> 
+              <li><i><BsCheckCircle/></i> Transmission oil check  </li> 
+              <li><i><BsCheckCircle/></i> Cleaning of IAC valve and sensors  </li> 
+              <li><i><BsCheckCircle/></i> Differential oil check  </li> 
+              <li><i><BsCheckCircle/></i> Check and refill fluid levels  </li> 
+              <li><i><BsCheckCircle/></i> Review of security points</li> 
+              <li><i><BsCheckCircle/></i>Engine, chassis wash </li>
+            </ul>
+            
+            
+            
+      
         </article>
       </div>
     </section>

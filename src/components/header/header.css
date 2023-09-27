@@ -41,6 +41,7 @@ header p {
     margin-top: -24rem;
 }
 
+
 @media screen and (max-width: 1024px){
     header{
         padding-bottom: var(--buttom-section-padding-mobile);
